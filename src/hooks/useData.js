@@ -9,13 +9,12 @@ export default function useData() {
   useEffect(() => {
     async function getAdvice() {
       try {
-        const response = await axios.get(
-          `https://stoic-server.herokuapp.com/random`
-        );
+        const response = await axios.get('https://stoic-quotes.com/api/quote');
 
-        const { id, body, author } = response.data[0];
+        const id = response.headers['content-length'];
+        const { text, author } = response.data;
 
-        setAdvice({ id, body, author });
+        setAdvice({ id, text, author });
       } catch (error) {
         setHasError(true);
       }

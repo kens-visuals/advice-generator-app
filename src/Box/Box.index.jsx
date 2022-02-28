@@ -15,7 +15,7 @@ export default function Box() {
   const adviceId = hasError ? 'Erorr 404' : `Advice #${advice.id}`;
   const adviceTxt = hasError
     ? 'Seneca says that you have a problem with your connection. Please try again!'
-    : advice.body;
+    : advice.text;
 
   return (
     <B.Background>
