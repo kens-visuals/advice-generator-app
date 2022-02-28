@@ -24,6 +24,7 @@ export default function Box() {
       <B.DividerIcon src={imageUrl} alt="divider" />
       <B.AviceNum>{advice.author}</B.AviceNum>
       <B.Button
+        aria-label="get random advice"
         style={{ backgroundImage: `url(${dice})` }}
         onClick={() => setIsNewAdvice(!isNewAdvice)}
       ></B.Button>

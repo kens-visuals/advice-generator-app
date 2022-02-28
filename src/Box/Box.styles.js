@@ -26,6 +26,7 @@ export const AviceNum = styled.span`
 
 export const Advice = styled.h1`
   font-size: clamp(2.4rem, 2vw, 2.8rem);
+  line-height: 1.3;
   margin: 2rem 0;
 
   @media (min-width: 810px) {
@@ -40,12 +41,12 @@ export const DividerIcon = styled.img`
 `;
 
 export const Button = styled.button`
+  width: 1rem;
   background-color: ${color.tertiary};
   background-repeat: no-repeat;
   background-position: center;
   border: none;
   border-radius: 50%;
-
   padding: 3rem;
   position: absolute;
   left: 50%;
