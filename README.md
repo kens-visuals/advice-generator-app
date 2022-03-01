@@ -48,11 +48,11 @@ Users should be able to:
 
 ### What I learned
 
-This wasn't the first time of me working with API, but a similar project was on my list for a while. Now, thanks to Frontend Mentor's good looking design, I've got a random Stoic advice generator that I'm using on daily basis. Although the initial API was different, I wanted to build something that me and my friends will use on daily basis. And when I add the website to my phone's homescreen it feels like a legit app. I'm pretty pumped on this, and as would Epictetus say, "He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.".
+This wasn't the first time of me working with API, but a similar project was on my list for a while. Now, thanks to Frontend Mentor's good-looking design, I've got a random Stoic advice generator that I'm using on a daily basis. Although the initial API was different, I wanted to build something that my friends and I will use on a daily basis. And when I add the website to my phone's home screen, it feels like a legit app. I'm pretty pumped on this, and as would Epictetus say, "He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.".
 
 ### Continued development
 
-I'm planning on adding animation to this project, I'm currently learning Framer Motion. Perhaps, my up and coming projects will already include animations.
+I'm planning on adding animation to this project, I'm currently learning Framer Motion. Perhaps, my up-and-coming projects will already include animations.
 
 ### Useful resources
 
