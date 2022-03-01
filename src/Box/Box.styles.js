@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import color from 'styles/colors';
 
-export const Background = styled.div`
+export const Background = styled.main`
   width: 90%;
   max-width: 54rem;
   background-color: ${color.primaryLight};

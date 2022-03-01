@@ -19,16 +19,10 @@ export default function Box() {
 
   return (
     <B.Background>
-      {/* <B.AviceNum>{adviceId}</B.AviceNum> */}
-      <B.AviceNum>Advice #86</B.AviceNum>
-      {/* <B.Advice>&#10077; {adviceTxt} &#10078;</B.Advice> */}
-      <B.Advice>
-        &#10077; It takes you more time to solve a problem than to set it.
-        &#10078;
-      </B.Advice>
+      <B.AviceNum>{adviceId}</B.AviceNum>
+      <B.Advice>&#10077; {adviceTxt} &#10078;</B.Advice>
       <B.DividerIcon src={imageUrl} alt="divider" />
-      {/* <B.AviceNum>{advice.author}</B.AviceNum> */}
-      <B.AviceNum>Seneca</B.AviceNum>
+      <B.AviceNum>{advice.author}</B.AviceNum>
       <B.Button
         aria-label="get random advice"
         style={{ backgroundImage: `url(${dice})` }}
